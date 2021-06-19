@@ -1,0 +1,30 @@
+{
+  "name": "wholesomesweetsapi",
+  "version": "1.0.0",
+  "description": "API For Wholesome Sweets Bakery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdouglas1020/MobileAppApi"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com//mdouglas1020/MobileAppApi/issues"
+  },
+  "homepage": "https://github.com/mdouglas1020/MobileAppApi#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-redis": "^3.3.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.12.1"
+  }
+}
